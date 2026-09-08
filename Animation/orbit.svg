@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="250" viewBox="0 0 720 250" font-family="'Plus Jakarta Sans','Segoe UI',system-ui,sans-serif">
+  <circle cx="120" cy="36" r="2" fill="#d0d7de"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="52" r="2" fill="#8b949e"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="206" r="2" fill="#8b949e"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" begin="1s" repeatCount="indefinite"/></circle>
+  <circle cx="580" cy="196" r="2" fill="#d0d7de"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+
+  <g fill="none" stroke="#d0d7de" stroke-dasharray="4 6">
+    <ellipse cx="360" cy="115" rx="96" ry="32"/>
+    <ellipse cx="360" cy="115" rx="160" ry="54"/>
+    <ellipse cx="360" cy="115" rx="228" ry="78"/>
+  </g>
+
+  <circle cx="360" cy="115" r="30" fill="none" stroke="#57606a" stroke-width="2">
+    <animate attributeName="r" values="30;56" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="360" cy="115" r="30" fill="#24292f"/>
+  <text x="360" y="121" text-anchor="middle" font-size="13" fill="#ffffff" font-family="'IBM Plex Mono',monospace">Backend</text>
+
+  <g transform="translate(360,115) scale(1,0.33)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+      <circle cx="96" cy="0" r="8" fill="#57606a"/></g>
+  </g>
+  <g transform="translate(360,115) scale(1,0.33)">
+    <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="11s" repeatCount="indefinite"/>
+      <circle cx="160" cy="0" r="9" fill="#8b949e"/></g>
+  </g>
+  <g transform="translate(360,115) scale(1,0.33)">
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+      <circle cx="228" cy="0" r="10" fill="#d0d7de"/>
+      <circle cx="228" cy="0" r="16" fill="none" stroke="#57606a" stroke-width="1.5"/></g>
+  </g>
+
+  <text x="360" y="238" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'IBM Plex Mono',monospace">REST API · PostgreSQL · JWT · Vue.js</text>
+</svg>
