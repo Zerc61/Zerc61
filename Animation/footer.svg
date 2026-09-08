@@ -1,11 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="64" viewBox="0 0 680 64" font-family="'Plus Jakarta Sans','Segoe UI',system-ui,sans-serif">
-  <rect x="40" y="30" width="600" height="6" rx="3" fill="#eaeef2"/>
-  <rect x="40" y="30" width="600" height="6" rx="3" fill="#24292f">
-    <animate attributeName="width" values="0;600" dur="7s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="20" y="14" width="3" height="20" rx="1.5" fill="#8b949e"><animate attributeName="height" values="20;8;20" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="14;22;14" dur="1.6s" repeatCount="indefinite"/></rect>
-  <rect x="28" y="8" width="3" height="32" rx="1.5" fill="#57606a"><animate attributeName="height" values="32;12;32" dur="1.3s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y" values="8;20;8" dur="1.3s" begin="0.2s" repeatCount="indefinite"/></rect>
-  <rect x="649" y="14" width="3" height="20" rx="1.5" fill="#8b949e"><animate attributeName="height" values="20;8;20" dur="1.6s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y" values="14;22;14" dur="1.6s" begin="0.4s" repeatCount="indefinite"/></rect>
-  <rect x="657" y="8" width="3" height="32" rx="1.5" fill="#57606a"><animate attributeName="height" values="32;12;32" dur="1.3s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="8;20;8" dur="1.3s" begin="0.6s" repeatCount="indefinite"/></rect>
+  <style>
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow 5s ease-out infinite; }
+    @keyframes bar { 0%, 100% { transform: scaleY(.4); } 50% { transform: scaleY(1); } }
+    .bar { transform-box: fill-box; transform-origin: center bottom; animation: bar 1.3s ease-in-out infinite; }
+    .b2 { animation-delay: .25s; }
+    .b3 { animation-delay: .5s; }
+  </style>
+
+  <rect x="40" y="30" width="600" height="6" rx="3" fill="#30363d"/>
+  <rect x="40" y="30" width="600" height="6" rx="3" fill="#58a6ff" class="grow"/>
+
+  <rect x="16" y="10" width="4" height="24" rx="2" fill="#7ee787" class="bar"/>
+  <rect x="26" y="10" width="4" height="24" rx="2" fill="#79c0ff" class="bar b2"/>
+  <rect x="36" y="10" width="4" height="24" rx="2" fill="#d2a8ff" class="bar b3"/>
+
+  <rect x="650" y="10" width="4" height="24" rx="2" fill="#79c0ff" class="bar b3"/>
+  <rect x="660" y="10" width="4" height="24" rx="2" fill="#7ee787" class="bar b2"/>
+
   <text x="340" y="58" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'IBM Plex Mono',monospace">always learning · always building</text>
 </svg>
