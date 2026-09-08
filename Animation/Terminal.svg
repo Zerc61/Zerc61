@@ -2,22 +2,6 @@
   <title>anjar — backend &amp; web developer</title>
 
   <defs>
-    <radialGradient id="bg" cx="50%" cy="30%" r="90%">
-      <stop offset="0%" stop-color="#151c27"/>
-      <stop offset="100%" stop-color="#0d1117"/>
-    </radialGradient>
-    <radialGradient id="blobA" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="blobB" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a371f7" stop-opacity="0.13"/>
-      <stop offset="100%" stop-color="#a371f7" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="headerGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#232b36"/>
-      <stop offset="100%" stop-color="#1a212b"/>
-    </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#58a6ff"/>
       <stop offset="50%" stop-color="#a371f7"/>
@@ -32,11 +16,9 @@
   </defs>
 
   <style>
-    /* satu timeline sinkron: 9 detik, tanpa delay — loop selalu rapi */
     .scene { animation: scene 9s linear infinite; }
     @keyframes scene { 0% { opacity: 0; } 2% { opacity: 1; } 92% { opacity: 1; } 100% { opacity: 0; } }
 
-    /* ketik: $ whoami */
     .t1 { animation: t1 9s steps(1, end) infinite; }
     @keyframes t1 {
       0%, 4% { width: 0; }
@@ -53,11 +35,9 @@
       13%, 100% { opacity: 0; }
     }
 
-    /* output muncul instan (seperti terminal beneran) */
     .o1 { animation: o1 9s ease infinite; }
     @keyframes o1 { 0%, 14% { opacity: 0; } 16%, 100% { opacity: 1; } }
 
-    /* ketik: $ cat interests.txt */
     .t3 { animation: t3 9s steps(1, end) infinite; }
     @keyframes t3 {
       0%, 20% { width: 0; }
@@ -84,7 +64,6 @@
       40%, 100% { opacity: 0; }
     }
 
-    /* output ke-2 + glow "bernapas" */
     .techs { animation: o2 9s ease infinite, techGlow 3s ease-in-out 5s infinite; }
     @keyframes o2 { 0%, 41% { opacity: 0; } 43%, 100% { opacity: 1; } }
     @keyframes techGlow {
@@ -92,7 +71,6 @@
       50% { filter: drop-shadow(0 0 6px rgba(88, 166, 255, 0.4)); }
     }
 
-    /* prompt akhir */
     .prompt { animation: o3 9s ease infinite; }
     @keyframes o3 { 0%, 45% { opacity: 0; } 47%, 100% { opacity: 1; } }
 
@@ -104,12 +82,10 @@
     }
   </style>
 
-  <!-- kartu -->
-  <rect width="680" height="200" rx="10" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- kartu: hitam polos, tanpa border -->
+  <rect width="680" height="200" rx="10" fill="#000000"/>
   <g clip-path="url(#card)">
-    <circle cx="80" cy="70" r="110" fill="url(#blobA)"/>
-    <circle cx="620" cy="170" r="120" fill="url(#blobB)"/>
-    <rect width="680" height="34" fill="url(#headerGrad)"/>
+    <rect width="680" height="34" fill="#161b22"/>
     <rect y="33.5" width="680" height="1" fill="#0a0e13"/>
     <rect width="680" height="2.5" fill="url(#accent)"/>
   </g>
@@ -120,7 +96,7 @@
   <circle cx="57" cy="17" r="6" fill="#28C840"/>
   <text x="340" y="21" text-anchor="middle" font-size="11" fill="#8b949e" letter-spacing="0.3">anjar@zerc: ~/about.md</text>
   <g>
-    <rect x="610" y="10" width="46" height="14" rx="7" fill="#1b222c" stroke="#30363d" stroke-width="0.75"/>
+    <rect x="610" y="10" width="46" height="14" rx="7" fill="#1b222c"/>
     <circle cx="620" cy="17" r="2.6" fill="#3fb950"/>
     <text x="628" y="20.5" font-size="9.5" fill="#7ee787">zsh</text>
   </g>
