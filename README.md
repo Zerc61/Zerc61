@@ -38,40 +38,40 @@ Cara belajar saya: *build, break, investigate, fix.* Bangun sistem, temukan masa
 
 **Bahasa pemrograman**
 
-<img src="https://img.shields.io/badge/-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" width="44" align="middle">
-<img src="https://img.shields.io/badge/-3178C6?logo=typescript&logoColor=white" alt="TypeScript" width="44" align="middle">
-<img src="https://img.shields.io/badge/-777BB4?logo=php&logoColor=white" alt="PHP" width="44" align="middle">
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 
 **Frontend**
 
-<img src="https://img.shields.io/badge/-E34F26?logo=html5&logoColor=white" alt="HTML5" width="44" align="middle">
-<img src="https://img.shields.io/badge/-1572B6?logo=css3&logoColor=white" alt="CSS3" width="44" align="middle">
-<img src="https://img.shields.io/badge/-42B883?logo=vuedotjs&logoColor=white" alt="Vue.js" width="44" align="middle">
-<img src="https://img.shields.io/badge/-646CFF?logo=vite&logoColor=white" alt="Vite" width="44" align="middle">
-<img src="https://img.shields.io/badge/-5A29E4?logo=axios&logoColor=white" alt="Axios" width="44" align="middle">
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-42B883?style=flat&logo=vuedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white)
 
 **Backend**
 
-<img src="https://img.shields.io/badge/-5FA04E?logo=nodedotjs&logoColor=white" alt="Node.js" width="44" align="middle">
-<img src="https://img.shields.io/badge/-000000?logo=express&logoColor=white" alt="Express.js" width="44" align="middle">
-<img src="https://img.shields.io/badge/-FF2D20?logo=laravel&logoColor=white" alt="Laravel" width="44" align="middle">
-<img src="https://img.shields.io/badge/-000000?logo=jsonwebtokens&logoColor=white" alt="JWT" width="44" align="middle">
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 
 **Database**
 
-<img src="https://img.shields.io/badge/-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" width="44" align="middle">
-<img src="https://img.shields.io/badge/-4479A1?logo=mysql&logoColor=white" alt="MySQL" width="44" align="middle">
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 **Tools &amp; Workflow**
 
-<img src="https://img.shields.io/badge/-F05032?logo=git&logoColor=white" alt="Git" width="44" align="middle">
-<img src="https://img.shields.io/badge/-181717?logo=github&logoColor=white" alt="GitHub" width="44" align="middle">
-<img src="https://img.shields.io/badge/-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code" width="44" align="middle">
-<img src="https://img.shields.io/badge/-E96C53?logo=bruno&logoColor=white" alt="Bruno" width="44" align="middle">
-<img src="https://img.shields.io/badge/-000000?logo=linux&logoColor=FCC624" alt="Linux" width="44" align="middle">
-<img src="https://img.shields.io/badge/-CB3837?logo=npm&logoColor=white" alt="npm" width="44" align="middle">
-<img src="https://img.shields.io/badge/-885630?logo=composer&logoColor=white" alt="Composer" width="44" align="middle">
-<img src="https://img.shields.io/badge/-0072C6?logo=midtrans&logoColor=white" alt="Midtrans" width="44" align="middle">
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![Bruno](https://img.shields.io/badge/Bruno-E96C53?style=flat&logo=bruno&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-000000?style=flat&logo=linux&logoColor=FCC624)
+![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=flat&logo=composer&logoColor=white)
+![Midtrans](https://img.shields.io/badge/Midtrans-0072C6?style=flat&logo=midtrans&logoColor=white)
 
 <div align="center">
 
@@ -85,10 +85,10 @@ Cara belajar saya: *build, break, investigate, fix.* Bangun sistem, temukan masa
 
 | Project | Description | Tech Stack |
 |---|---|---|
-| **GearFlow** | Sistem peminjaman alat sekolah — manajemen stok alat, peminjaman, dan pengembalian. | <img src="https://img.shields.io/badge/-FF2D20?logo=laravel&logoColor=white" alt="Laravel" width="36" align="middle"> <img src="https://img.shields.io/badge/-4479A1?logo=mysql&logoColor=white" alt="MySQL" width="36" align="middle"> |
-| **EJT** — East Java Traveling | Platform traveling Jawa Timur: pencarian destinasi, *virtual currency*, integrasi payment **Midtrans (sandbox)**. | <img src="https://img.shields.io/badge/-FF2D20?logo=laravel&logoColor=white" alt="Laravel" width="36" align="middle"> <img src="https://img.shields.io/badge/-42B883?logo=vuedotjs&logoColor=white" alt="Vue.js" width="36" align="middle"> <img src="https://img.shields.io/badge/-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" width="36" align="middle"> <img src="https://img.shields.io/badge/-0072C6?logo=midtrans&logoColor=white" alt="Midtrans" width="36" align="middle"> |
-| **Ovena** | Website toko kue modern ala e-commerce — katalog produk, keranjang, alur transaksi. | <img src="https://img.shields.io/badge/-FF2D20?logo=laravel&logoColor=white" alt="Laravel" width="36" align="middle"> <img src="https://img.shields.io/badge/-4479A1?logo=mysql&logoColor=white" alt="MySQL" width="36" align="middle"> |
-| **Bombskuy!** | Game Bomberman — kontrol **WASD**, murni client-side. | <img src="https://img.shields.io/badge/-E34F26?logo=html5&logoColor=white" alt="HTML5" width="36" align="middle"> <img src="https://img.shields.io/badge/-1572B6?logo=css3&logoColor=white" alt="CSS3" width="36" align="middle"> <img src="https://img.shields.io/badge/-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" width="36" align="middle"> |
+| **GearFlow** | Sistem peminjaman alat sekolah — manajemen stok alat, peminjaman, dan pengembalian. | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) |
+| **EJT** — *East Java Traveling* | Platform traveling Jawa Timur: pencarian destinasi, *virtual currency*, integrasi payment **Midtrans (sandbox)**. | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-42B883?style=flat&logo=vuedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Midtrans](https://img.shields.io/badge/Midtrans-0072C6?style=flat&logo=midtrans&logoColor=white) |
+| **Ovena** | Website toko kue modern ala e-commerce — katalog produk, keranjang, alur transaksi. | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) |
+| **Bombskuy!** | Game Bomberman — kontrol **WASD**, murni client-side. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat&logo=javascript&logoColor=F7DF1E) |
 
 ---
 
@@ -106,11 +106,9 @@ Cara belajar saya: *build, break, investigate, fix.* Bangun sistem, temukan masa
 
 Terbuka untuk kesempatan **Praktik Kerja Lapangan (PKL)** dan kolaborasi — jangan ragu untuk menghubungi.
 
-<p>
-[<img src="https://img.shields.io/badge/-181717?logo=github&logoColor=white" alt="GitHub" width="32" align="middle">](https://github.com/Zerc61) <a href="https://github.com/Zerc61">github.com/Zerc61</a><br>
-[<img src="https://img.shields.io/badge/-EA4335?logo=gmail&logoColor=white" alt="Email" width="32" align="middle">](mailto:sampbernad@gmail.com) <a href="mailto:sampbernad@gmail.com">sampbernad@gmail.com</a><br>
-[<img src="https://img.shields.io/badge/-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp" width="32" align="middle">](https://wa.me/6282336082154) <a href="https://wa.me/6282336082154">0823-3608-2154</a>
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Zerc61)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sampbernad@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/6282336082154)
 
 <div align="center">
 
